@@ -71,3 +71,73 @@
     color: rgb(142, 140, 140);
     font-size: 17px;
 }
+
+.botsec{
+    padding-bottom: 50px;
+}
+
+.html{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.html h6{
+    font-weight: bold;
+    font-size: 13px;
+    font-style:inherit;
+}
+
+.lorem{
+    color: #273e67;
+    font-weight: bolder;
+}
+
+.lorem2{
+    font-style: italic;
+}
+
+.percent{
+    width: 100%;
+    height: 10px;
+    background-color: #37517E;
+}
+
+.main{
+    display: flex;
+}
+.percent1{
+    width: 90%;
+    height: 10px;
+    background-color: #37517E;
+}
+.percent2{
+    width: 10%;
+    height: 10px;
+    background-color: #e4e0e0;
+}
+    
+.percent3{
+    width: 90%;
+    height: 10px;
+    background-color: #37517E;
+}
+.percent4{
+    width: 28%;
+    height: 10px;
+    background-color: #e4e0e0;
+    
+}
+.percent5{
+    width: 90%;
+    height: 10px;
+    background-color: #37517E;
+}
+.percent6{
+    width: 65%;
+    height: 10px;
+    background-color: #e4e0e0;
+    
+}
+
+

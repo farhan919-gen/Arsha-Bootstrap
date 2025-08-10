@@ -1,0 +1,73 @@
+:root{
+    --maincolor:#37517E;
+    
+
+}
+
+.topsec{
+    background-color:#37517E;
+    height: 730px;
+}
+
+.collapse a{
+    color:white !important;
+
+}
+
+.dropdown-menu a{
+    color: black !important;
+}
+
+.hero img{
+    animation: move 1.5s alternate infinite;
+}
+
+@keyframes move{
+
+    from{
+    transform: translateY(0);
+    }to{
+    transform: translateY(-15px);
+    }
+
+}
+
+.brands{
+    background-color: #f1f0f0;
+}
+
+
+.text-blue{
+    color: var(--maincolor) !important;
+}
+
+.grey-line{
+    width: 13%;
+    height: 1px;
+    background-color: rgb(192, 190, 190);
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.blue-line{
+    width: 38%;
+    height:2.5px ;
+    background-color: #47B2E4;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.midsec{
+    font-size: 18px;
+    color: rgb(78, 77, 77);
+}
+
+.para{
+    color: rgb(142, 140, 140);
+    font-size: 17px;
+}

@@ -130,7 +130,7 @@
 .percent3{
     width: 90%;
     height: 10px;
-    background-color: #37517E;
+    background-color: rgb(55, 81, 126);
 }
 .percent4{
     width: 28%;
@@ -194,8 +194,58 @@
     transform:translateY(-10px);
 }
 
-picture img{
-    height: 300px;
+.imagecontainer{
+    
+    
+    background: linear-gradient(to right,rgb(55, 81, 126,0.5),rgb(55, 81, 126,0.7)),url(https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp)fixed;
 }
 
+.image-animation{
+    overflow: hidden;
+    position: relative;
+}
+.overlay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    bottom: -90px;
+    transition: all 0.4s;
+    background-color: rgba(255, 255, 255, 0.795);
+}
 
+.image-animation:hover .overlay{
+    bottom: 0;
+}
+
+.social-icons i{
+    background-color: #e4e0e0;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    color: #626161;
+}
+
+.social-icons i:hover{
+    background-color: #47B2E4;
+    color: white;
+}
+
+.forminput input{
+    width: 80%;
+}
+
+.forminput2{
+    background-color: #47B2E4;
+}
+
+.forminput2:hover {
+    background-color: #3e8eb4;
+    
+}
